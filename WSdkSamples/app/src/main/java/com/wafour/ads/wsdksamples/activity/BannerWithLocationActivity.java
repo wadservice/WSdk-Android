@@ -116,13 +116,18 @@ public class BannerWithLocationActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        WSdk.resume(this);
+        if(m_banner50 != null) m_banner50.resume();
+        if(m_banner100 != null) m_banner100.resume();
+        if(m_bannerAdaptive != null) m_bannerAdaptive.resume();
+
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        WSdk.pause(this);
+        if(m_banner50 != null) m_banner50.pause();
+        if(m_banner100 != null) m_banner100.pause();
+        if(m_bannerAdaptive != null) m_bannerAdaptive.pause();
     }
 
     @Override

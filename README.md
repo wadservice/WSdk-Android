@@ -1,5 +1,5 @@
 # WSdk-Android
-# AdPie Android SDK
+# WAD Android SDK
 WAD SDK를 찾아주셔서 감사합니다.
 
 다음사이트에서 회원을 가입하시고 시작하실수 있습니다. 

@@ -1,5 +1,18 @@
 # Change log
 
+### 1.0.10(2020. 11. 09)
+
+- Interstitial Impression 개선
+
+### 1.0.9 (2020. 11. 03)
+
+- TargetingData 추가
+- Native Ad 추가
+- Fixed adtype bug
+
+### 1.0.8 (2020. 10. 21)
+
+- Sending app version for ad request.
 
 ### 1.0.7 (2020. 7. 15)
 

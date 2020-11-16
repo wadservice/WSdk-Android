@@ -1,5 +1,9 @@
 # Change log
 
+### 1.0.11(2020. 11. 10)
+
+- Request시 SDK Version 보내도록 수정
+
 ### 1.0.10(2020. 11. 09)
 
 - Interstitial Impression 개선

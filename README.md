@@ -13,4 +13,4 @@ SDK 연동은 [연동가이드](https://github.com/wafour/WSdk-Android/wiki) 에
 [Change Log](https://github.com/wafour/WSdk-Android/blob/master/CHANGELOG.md) 를 통해 변경내역을 확인할 수 있습니다.
 
 # 문의
-도움이 필요하시다면 email [wad@wafour.com] 로 문의하시기 바랍니다.
+도움이 필요하시다면 email [support@wadservice.com] 로 문의하시기 바랍니다.

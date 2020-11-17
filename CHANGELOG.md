@@ -1,5 +1,9 @@
 # Change log
 
+### 1.0.12(2020. 11. 16)
+
+- Targeting Data에 Keyword 추가
+
 ### 1.0.11(2020. 11. 10)
 
 - Request시 SDK Version 보내도록 수정

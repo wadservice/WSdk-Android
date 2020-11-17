@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button m_btnBanner;
     private Button m_btnBannerWithLocation;
     private Button m_btnInterstitial;
+    private Button m_btnNative;
 
 
     @Override
@@ -37,9 +38,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         m_btnBanner = findViewById(R.id.btn_banner);
         m_btnBannerWithLocation = findViewById(R.id.btn_banner_with_location);
         m_btnInterstitial = findViewById(R.id.btn_interstitial);
+        m_btnNative = findViewById(R.id.btn_native);
         m_btnBanner.setOnClickListener(this);
         m_btnBannerWithLocation.setOnClickListener(this);
         m_btnInterstitial.setOnClickListener(this);
+        m_btnNative.setOnClickListener(this);
     }
 
 
@@ -51,6 +54,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startBannerWithLocationActivity();
         } else if(v.getId() == R.id.btn_interstitial) {
             showInterstitial();
+        } else if(v.getId() == R.id.btn_native) {
+            startNativeAdActivity();
         }
     }
 
@@ -60,6 +65,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     private void startBannerWithLocationActivity() {
         Intent i = new Intent(this, BannerWithLocationActivity.class);
+        startActivity(i);
+    }
+    private void startNativeAdActivity() {
+        Intent i = new Intent(this, NativeAdActivity.class);
         startActivity(i);
     }
 

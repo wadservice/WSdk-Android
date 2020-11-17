@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/native_top">
+
+        <ImageView
+            android:id="@+id/native_ad_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:id="@+id/native_ad_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/native_ad_icon"
+            android:layout_toEndOf="@id/native_ad_icon"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/native_ad_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/native_top"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+
+    <com.wafour.ads.sdk.nativeAd.MainAdView
+        android:id="@+id/native_ad_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/native_ad_description"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/native_optout"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+        android:id="@+id/native_ad_cta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/native_ad_main"
+        android:layout_alignWithParentIfMissing="true"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryText"
+        />
+
+</RelativeLayout>

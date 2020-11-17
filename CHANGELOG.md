@@ -1,5 +1,9 @@
 # Change log
 
+### 1.0.13(2020. 11. 17)
+
+- TargetingData.builder() 메소드 static으로 변경
+
 ### 1.0.12(2020. 11. 16)
 
 - Targeting Data에 Keyword 추가

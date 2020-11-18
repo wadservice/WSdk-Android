@@ -1,5 +1,9 @@
 # Change log
 
+### 1.0.14(2020. 11. 18)
+
+- AdRequest structure 개선
+
 ### 1.0.13(2020. 11. 17)
 
 - TargetingData.builder() 메소드 static으로 변경

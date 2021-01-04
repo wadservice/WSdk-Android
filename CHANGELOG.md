@@ -1,5 +1,9 @@
 # Change log
 
+### 1.0.15(2021. 1. 14)
+
+- SDK 안정성 개선
+
 ### 1.0.14(2020. 11. 18)
 
 - AdRequest structure 개선

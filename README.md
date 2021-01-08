@@ -4,7 +4,7 @@ WAD SDK를 찾아주셔서 감사합니다.
 
 다음사이트에서 회원을 가입하시고 시작하실수 있습니다. 
 
-[http://ssp.wafour.com](https://ssp.wafour.com)
+[http://admin.wadservice.com](http://admin.wadservice.com)
 
 # SDK 연동
 SDK 연동은 [연동가이드](https://github.com/wafour/WSdk-Android/wiki) 에서 확인할 수 있습니다.

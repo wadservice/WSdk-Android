@@ -1,5 +1,9 @@
 # Change log
 
+### 1.0.18(2021. 4. 28)
+- AD Response Data처리 개선
+- 보안업데이트: https 프로토콜 사용
+
 ### 1.0.16(2021. 1. 08)
 
 - SDK 안정성 개선(Interstitial)

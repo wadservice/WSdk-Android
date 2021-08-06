@@ -1,5 +1,9 @@
 # Change log
 
+### 1.0.21(2021. 8. 7)
+- 전면 광고 중복집계 문제 개선
+- 클릭시 Browser launching behavior 개선
+
 ### 1.0.21(2021. 7. 14)
 - Error Code handling 개선
 

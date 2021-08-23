@@ -1,5 +1,8 @@
 # Change log
 
+### 1.0.23(2021. 8. 20)
+- 간헐적으로 Exception 발생하는 증상 개선
+
 ### 1.0.21(2021. 8. 7)
 - 전면 광고 중복집계 문제 개선
 - 클릭시 Browser launching behavior 개선

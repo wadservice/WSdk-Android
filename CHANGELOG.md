@@ -1,5 +1,8 @@
 # Change log
 
+### 1.0.34(2023. 01. 30)
+- Chrome Browser 로 광고 launching issue 수정 
+
 ### 1.0.32(2022. 04. 7)
 - GAID Access 관련 안정성 개선
 
